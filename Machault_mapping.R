@@ -83,7 +83,7 @@ inset_gg <- ggplot(data = world) +
             color = "red", fill = NA, linewidth = 1.2) +  
   
   # Add labels for major geographic features in bold black text 
-  annotate("text", x = -63, y = 37, label = "Atlantic Ocean", 
+  annotate("text", x = -63, y = 37, label = "Atlantic \nOcean", 
            size = 4, color = "black", fontface = "bold") +  
   
   # Styling 
@@ -101,15 +101,17 @@ inset_gg <- ggplot(data = world) +
 ## Combine main and inset map 
 map_combined<-ggdraw() +
   draw_plot(main_gg) +
-  draw_plot(inset_gg, height = 0.4, x = -0.3, y = 0.53)
+  draw_plot(inset_gg, height = 0.4, x = -0.3, y = 0.56)
 
   # Display map
     print(map_combined)
 
 ## Save combined map as high-resolution TIFF 
     ggsave(
-      filename = here("Machault_map_combined.tiff"),
+      filename = here("Machault_map_combined_2.tiff"),
       plot = map_combined,
-      dpi = 600,
+      dpi = 300,
+      width = 10,   
+      height = 8,
       bg = "white"
     )
