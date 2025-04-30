@@ -30,8 +30,8 @@ df <- read.xlsx((here('Machault_site_city_coordinates.xlsx')))
 main_gg <- ggplot(data = world) +  
   geom_sf(fill="lightgrey") +  # Plot world map with grey fill
   geom_sf(data = state_prov, fill = "lightgrey") +  # Add state and province boundaries
-  geom_sf(data = water, fill = "white") +  # Plot lakes with white fill
-  geom_point(data = df, aes(x = Long, y = Lat, shape = Group), size = 6) +  # Add data points
+  geom_sf(data = water, fill = "white") +  # Plot lakes 
+  geom_point(data = df, aes(x = Long, y = Lat, shape = Group), size = 6) +  # Add points for Machault and cities
   scale_shape_manual(values = c("City" = 16, "Site" = 18)) +  # Define shape types for points
   
   # Add labels for Machault and cities in bold black text 
