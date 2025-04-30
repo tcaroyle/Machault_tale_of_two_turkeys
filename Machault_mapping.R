@@ -98,7 +98,7 @@ inset_gg <- ggplot(data = world) +
   # Display map
     print(inset_gg)
 
-## Combine the main map and the inset map into a single plot
+## Combine main and inset map 
 ggdraw() +
   draw_plot(main_gg) +
   draw_plot(inset_gg, height = 0.4, x = -0.34, y = 0.58)
