@@ -23,8 +23,8 @@ water <- ne_download(scale = 10, type = 'lakes', category = 'physical', returncl
 ## Set theme
 theme_set(theme_bw())
 
-## Load spreadsheet containing coordinates for cities and Machault wreck 
-df <- read.xlsx((here('data','Machault_site_city_coordinates.xlsx')))
+## Load spreadsheet containing coordinates for Machault wreck and cities
+df <- read.xlsx((here('Machault_site_city_coordinates.xlsx')))
 
 ## Create main map 
 main_gg <- ggplot(data = world) +  
@@ -99,9 +99,17 @@ inset_gg <- ggplot(data = world) +
     print(inset_gg)
 
 ## Combine main and inset map 
-ggdraw() +
+map_combined<-ggdraw() +
   draw_plot(main_gg) +
-  draw_plot(inset_gg, height = 0.4, x = -0.34, y = 0.58)
+  draw_plot(inset_gg, height = 0.4, x = -0.3, y = 0.53)
+
+  # Display map
+    print(map_combined)
 
 ## Save combined map as high-resolution TIFF 
-ggsave("Revised Turkey Map_Version 2.tiff", dpi=600)
+    ggsave(
+      filename = here("Machault_map_combined.tiff"),
+      plot = map_combined,
+      dpi = 600,
+      bg = "white"
+    )
