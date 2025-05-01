@@ -1,1 +1,1 @@
-# Machault_tale_of_two_turkeys
+# A tale of two turkeys: Assessing the domestication status and origins of turkey remains (Meleagris gallopavo) from the 18th century Machault shipwreck through ancient DNA and stable isotope analysis
