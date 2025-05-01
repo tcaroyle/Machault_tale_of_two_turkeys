@@ -1,10 +1,3 @@
-########################################
-###        Supplementary file 1      ###
-###        R script for mapping      ###
-###      A tale of two turkeys       ###
-###          Jackman et al.         ####
-########################################
-
 ## Load required packages 
 library("here")
 library("ggplot2")         
