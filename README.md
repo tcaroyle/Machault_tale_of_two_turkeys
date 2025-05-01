@@ -27,7 +27,7 @@ The repository includes four directories:
 ### `script`
 
 - **`Machault_mapping.R`**:  
-  R script for mapping location of the wreck *Machault*, the cities of Montréal and Québec, and other geographic features. Input is `Machault_site_city_coordinates.xlsx.xlsx`.
+  R script for mapping location of the wreck *Machault*, the cities of Montréal and Québec, and other geographic features. Input is `Machault_site_city_coordinates.xlsx`.
 
 
 ### `data`
