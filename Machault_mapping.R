@@ -42,7 +42,7 @@ main_gg <- ggplot(data = world) +
   coord_sf(crs = st_crs(3857)) +  
   coord_sf(xlim = c(-76, -56), ylim = c(44.7, 55), expand = FALSE) +  
   
-  # Add labels for major geographic features in bold black text 
+  # Add labels for major geographic features
   annotate("text", x = -61.7, y = 48.3513889, label = "Gulf of \n St. Lawrence", 
            size = 4, color = "black", fontface = "bold") +
   annotate("text", x = -65, y = 48.05, label = "Chaleur Bay", 
@@ -68,7 +68,7 @@ main_gg <- ggplot(data = world) +
   # Display map
   print(main_gg)
 
-## Create the inset map 
+## Create inset map 
 inset_gg <- ggplot(data = world) +  
   geom_sf(fill="lightgrey") +  # Plot world map with grey fill
   geom_sf(data = state_prov, fill = "lightgrey") +  # Add state and province boundaries
