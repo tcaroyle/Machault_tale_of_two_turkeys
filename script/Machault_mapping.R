@@ -1,3 +1,7 @@
+### R script for the paper:
+###Jackman, Luke S., Vaughan, Tom, Royle, Thomas C.A., Guiry, Eric J., Dagneau, Charles, Speller, Camilla F., Noël, Stéphane, & Yang, Dongya Y. (in review) 
+###A tale of two turkeys: Assessing the domestication status and origins of turkey remains (Meleagris gallopavo) from the 18th century Machault shipwreck through ancient DNA and stable isotope analysis
+
 ## Load required packages 
 library("here")
 library("ggplot2")         
@@ -17,7 +21,7 @@ water <- ne_download(scale = 10, type = 'lakes', category = 'physical', returncl
 theme_set(theme_bw())
 
 ## Load spreadsheet containing coordinates for Machault wreck and cities
-df <- read.xlsx((here('Machault_site_city_coordinates.xlsx')))
+df <- read.xlsx((here('data','Machault_site_city_coordinates.xlsx')))
 
 ## Create main map 
 main_gg <- ggplot(data = world) +  
@@ -101,7 +105,7 @@ map_combined<-ggdraw() +
 
 ## Save combined map as high-resolution TIFF 
     ggsave(
-      filename = here("Machault_map_combined_2.tiff"),
+      filename = here('data',"Machault_map_combined.tiff"),
       plot = map_combined,
       dpi = 300,
       width = 10,   
