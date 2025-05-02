@@ -84,12 +84,6 @@ loaded via a namespace (and not attached):
 
 ---
 
-## Funding
-
-This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (4-OCEANS, grant agreement No. 951649).
-
----
-
 ## License
 
 **CC BY 4.0**
