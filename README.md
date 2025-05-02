@@ -1,5 +1,5 @@
 # Repository of script used for mapping in '*A tale of two turkeys: Assessing the domestication status and origins of turkey remains (Meleagris gallopavo) from the 18<sup>th</sup> century Machault shipwreck through ancient DNA and stable isotope analysis*'
-This repository contains an R script and associated data used for mapping site locations in the paper:
+This repository contains  R script and associated data used for mapping in the paper:
 
 Jackman, Luke S., Vaughan, Tom, Royle, Thomas C.A., Guiry, Eric J., Dagneau, Charles, Speller, Camilla F., Noël, Stéphane, & Yang, Dongya Y. (in review). A tale of two turkeys: Assessing the domestication status and origins of turkey remains (*Meleagris gallopavo*) from the 18<sup>th</sup> century Machault shipwreck through ancient DNA and stable isotope analysis.
 
@@ -87,4 +87,15 @@ loaded via a namespace (and not attached):
 ## Funding
 
 This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (4-OCEANS, grant agreement No. 951649).
+
+---
+
+## License
+
+**CC BY 4.0**
+<br> **Creative Commons Attribution 4.0 International**</br>
+
+This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+
+---
 
