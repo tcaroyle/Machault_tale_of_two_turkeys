@@ -1,4 +1,7 @@
 # Repository of R script and data used for mapping in '*A tale of two turkeys: Assessing the domestication status and origins of turkey remains (Meleagris gallopavo) from the 18<sup>th</sup> century Machault shipwreck through ancient DNA and stable isotope analysis*'
+
+[![DOI](https://zenodo.org/badge/975194003.svg)](https://doi.org/10.5281/zenodo.15640070)
+
 This repository contains the R script and data used for mapping in the paper:
 
 Jackman, Luke S., Vaughan, Tom, Royle, Thomas C.A., Guiry, Eric J., Dagneau, Charles, Speller, Camilla F., Noël, Stéphane, & Yang, Dongya Y. (in review). A tale of two turkeys: Assessing the domestication status and origins of turkey remains (*Meleagris gallopavo*) from the 18<sup>th</sup> century Machault shipwreck through ancient DNA and stable isotope analysis.
