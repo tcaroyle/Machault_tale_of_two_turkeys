@@ -47,7 +47,7 @@ The repository includes four directories:
 
 R version 4.4.2 (2024-10-31)
 Platform: aarch64-apple-darwin20
-Running under: macOS Sequoia 15.4.1
+Running under: macOS Sequoia 15.5
 
 Matrix products: default
 BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
@@ -63,24 +63,24 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] cowplot_1.1.3       openxlsx_4.2.8      ggspatial_1.1.9     rnaturalearth_1.0.1
-[5] sf_1.0-19           ggplot2_3.5.1       here_1.0.1         
+[1] cowplot_1.1.3       openxlsx_4.2.8      ggspatial_1.1.9     rnaturalearth_1.0.1 sf_1.0-19          
+[6] ggplot2_3.5.2       here_1.0.1         
 
 loaded via a namespace (and not attached):
  [1] gtable_0.3.6                  jsonlite_1.8.9                dplyr_1.1.4                  
  [4] compiler_4.4.2                zip_2.3.1                     tidyselect_1.2.1             
  [7] Rcpp_1.0.14                   textshaping_1.0.0             systemfonts_1.2.1            
-[10] scales_1.3.0                  R6_2.5.1                      generics_0.1.3               
+[10] scales_1.4.0                  R6_2.6.1                      generics_0.1.4               
 [13] classInt_0.4-11               tibble_3.2.1                  units_0.8-5                  
-[16] munsell_0.5.1                 rprojroot_2.0.4               DBI_1.2.3                    
-[19] pillar_1.10.1                 rlang_1.1.4                   stringi_1.8.4                
-[22] terra_1.8-15                  cli_3.6.3                     withr_3.0.2                  
+[16] rprojroot_2.0.4               DBI_1.2.3                     pillar_1.10.2                
+[19] RColorBrewer_1.1-3            rlang_1.1.6                   stringi_1.8.4                
+[22] terra_1.8-15                  cli_3.6.5                     withr_3.0.2                  
 [25] magrittr_2.0.3                class_7.3-22                  grid_4.4.2                   
 [28] rstudioapi_0.17.1             lifecycle_1.0.4               rnaturalearthhires_1.0.0.9000
 [31] vctrs_0.6.5                   KernSmooth_2.23-24            proxy_0.4-27                 
 [34] glue_1.8.0                    farver_2.1.2                  ragg_1.3.3                   
-[37] codetools_0.2-20              e1071_1.7-16                  colorspace_2.1-1             
-[40] httr_1.4.7                    tools_4.4.2                   pkgconfig_2.0.3
+[37] codetools_0.2-20              e1071_1.7-16                  httr_1.4.7                   
+[40] tools_4.4.2                   pkgconfig_2.0.3              
 
 ---
 
