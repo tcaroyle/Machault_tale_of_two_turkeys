@@ -44,7 +44,7 @@ The repository includes four directories:
 ---
 
 ## R Session Info
-
+```
 R version 4.4.2 (2024-10-31)
 Platform: aarch64-apple-darwin20
 Running under: macOS Sequoia 15.5
@@ -81,7 +81,7 @@ loaded via a namespace (and not attached):
 [34] glue_1.8.0                    farver_2.1.2                  ragg_1.3.3                   
 [37] codetools_0.2-20              e1071_1.7-16                  httr_1.4.7                   
 [40] tools_4.4.2                   pkgconfig_2.0.3              
-
+```
 ---
 
 ## License

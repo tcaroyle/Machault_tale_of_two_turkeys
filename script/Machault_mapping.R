@@ -111,7 +111,7 @@ map_combined<-ggdraw() +
     ggsave(
       filename = here('output',"Figure 1_map_Machault_location.tiff"),
       plot = map_combined,
-      dpi = 600,
+      dpi = 300,
       width = 10,   
       height = 8,
       bg = "white"
