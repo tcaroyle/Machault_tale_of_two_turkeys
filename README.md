@@ -41,7 +41,7 @@ The repository includes four directories:
 
 ### `output`
 
-- **`Machault_map_combined.tiff`**:
+- **`Figure 1_map_Machault_location.tiff`**:
   Map (Figure 1 in paper) showing location of the wreck of the *Machault* and the cities of Montréal and Québec generated with R script.
   
 ---
